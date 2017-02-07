@@ -19,7 +19,7 @@ Works only on linux operating system
 
 ##netem_controller
 
-This module helps in emulating the production setup network by introducing delay and packet on the interface through which your application is connected to internet. We can inject these dealys and packet loss into multiple interface as well. Below is the snippet of how can we create a network emulation on the interface 'p514p2'. There are more samples in the sample directory.
+This module helps in emulating the production setup network by introducing delay and packet loss on the interface through which your application is connected to internet. We can inject these dealys and packet loss into multiple interface as well. Below is the snippet of how can we create a network emulation on the interface 'p514p2'. There are more samples in the sample directory.
 ```
     #creates instance of netem_controller class
     cp = netem_controller()
